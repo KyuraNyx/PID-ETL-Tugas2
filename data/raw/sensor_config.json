@@ -1,0 +1,252 @@
+[
+  {
+    "sensor_id": "SENSOR_001",
+    "location": "Location_B",
+    "installation_date": "2024-01-01",
+    "calibration_date": "2024-01-15",
+    "specifications": {
+      "temperature_range": [
+        -10,
+        50
+      ],
+      "humidity_range": [
+        0,
+        100
+      ],
+      "pressure_range": [
+        950,
+        1050
+      ],
+      "accuracy": {
+        "temperature": 0.5,
+        "humidity": 3.0,
+        "pressure": 1.0
+      }
+    }
+  },
+  {
+    "sensor_id": "SENSOR_002",
+    "location": "Location_C",
+    "installation_date": "2024-01-01",
+    "calibration_date": "2024-01-15",
+    "specifications": {
+      "temperature_range": [
+        -10,
+        50
+      ],
+      "humidity_range": [
+        0,
+        100
+      ],
+      "pressure_range": [
+        950,
+        1050
+      ],
+      "accuracy": {
+        "temperature": 0.5,
+        "humidity": 3.0,
+        "pressure": 1.0
+      }
+    }
+  },
+  {
+    "sensor_id": "SENSOR_003",
+    "location": "Location_D",
+    "installation_date": "2024-01-01",
+    "calibration_date": "2024-01-15",
+    "specifications": {
+      "temperature_range": [
+        -10,
+        50
+      ],
+      "humidity_range": [
+        0,
+        100
+      ],
+      "pressure_range": [
+        950,
+        1050
+      ],
+      "accuracy": {
+        "temperature": 0.5,
+        "humidity": 3.0,
+        "pressure": 1.0
+      }
+    }
+  },
+  {
+    "sensor_id": "SENSOR_004",
+    "location": "Location_E",
+    "installation_date": "2024-01-01",
+    "calibration_date": "2024-01-15",
+    "specifications": {
+      "temperature_range": [
+        -10,
+        50
+      ],
+      "humidity_range": [
+        0,
+        100
+      ],
+      "pressure_range": [
+        950,
+        1050
+      ],
+      "accuracy": {
+        "temperature": 0.5,
+        "humidity": 3.0,
+        "pressure": 1.0
+      }
+    }
+  },
+  {
+    "sensor_id": "SENSOR_005",
+    "location": "Location_A",
+    "installation_date": "2024-01-01",
+    "calibration_date": "2024-01-15",
+    "specifications": {
+      "temperature_range": [
+        -10,
+        50
+      ],
+      "humidity_range": [
+        0,
+        100
+      ],
+      "pressure_range": [
+        950,
+        1050
+      ],
+      "accuracy": {
+        "temperature": 0.5,
+        "humidity": 3.0,
+        "pressure": 1.0
+      }
+    }
+  },
+  {
+    "sensor_id": "SENSOR_006",
+    "location": "Location_B",
+    "installation_date": "2024-01-01",
+    "calibration_date": "2024-01-15",
+    "specifications": {
+      "temperature_range": [
+        -10,
+        50
+      ],
+      "humidity_range": [
+        0,
+        100
+      ],
+      "pressure_range": [
+        950,
+        1050
+      ],
+      "accuracy": {
+        "temperature": 0.5,
+        "humidity": 3.0,
+        "pressure": 1.0
+      }
+    }
+  },
+  {
+    "sensor_id": "SENSOR_007",
+    "location": "Location_C",
+    "installation_date": "2024-01-01",
+    "calibration_date": "2024-01-15",
+    "specifications": {
+      "temperature_range": [
+        -10,
+        50
+      ],
+      "humidity_range": [
+        0,
+        100
+      ],
+      "pressure_range": [
+        950,
+        1050
+      ],
+      "accuracy": {
+        "temperature": 0.5,
+        "humidity": 3.0,
+        "pressure": 1.0
+      }
+    }
+  },
+  {
+    "sensor_id": "SENSOR_008",
+    "location": "Location_D",
+    "installation_date": "2024-01-01",
+    "calibration_date": "2024-01-15",
+    "specifications": {
+      "temperature_range": [
+        -10,
+        50
+      ],
+      "humidity_range": [
+        0,
+        100
+      ],
+      "pressure_range": [
+        950,
+        1050
+      ],
+      "accuracy": {
+        "temperature": 0.5,
+        "humidity": 3.0,
+        "pressure": 1.0
+      }
+    }
+  },
+  {
+    "sensor_id": "SENSOR_009",
+    "location": "Location_E",
+    "installation_date": "2024-01-01",
+    "calibration_date": "2024-01-15",
+    "specifications": {
+      "temperature_range": [
+        -10,
+        50
+      ],
+      "humidity_range": [
+        0,
+        100
+      ],
+      "pressure_range": [
+        950,
+        1050
+      ],
+      "accuracy": {
+        "temperature": 0.5,
+        "humidity": 3.0,
+        "pressure": 1.0
+      }
+    }
+  },
+  {
+    "sensor_id": "SENSOR_010",
+    "location": "Location_A",
+    "installation_date": "2024-01-01",
+    "calibration_date": "2024-01-15",
+    "specifications": {
+      "temperature_range": [
+        -10,
+        50
+      ],
+      "humidity_range": [
+        0,
+        100
+      ],
+      "pressure_range": [
+        950,
+        1050
+      ],
+      "accuracy": {
+        "temperature": 0.5,
+        "humidity": 3.0,
+        "pressure": 1.0
+      }
+    }
+  }
+]

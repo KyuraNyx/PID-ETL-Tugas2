@@ -1,0 +1,43 @@
+{
+  "input_paths": {
+    "csv_main": "data/raw/sensor_data_main.csv",
+    "excel": "data/raw/sensor_data_monthly.xlsx",
+    "json_config": "data/raw/sensor_config.json"
+  },
+  "output_path": "data/output",
+  "processing": {
+    "remove_duplicates": true,
+    "handle_missing": true,
+    "feature_engineering": true,
+    "normalize_data": true,
+    "outlier_detection": true,
+    "data_validation": true
+  },
+  "export_formats": ["csv", "excel", "json", "parquet"],
+  "aggregations": ["hourly", "daily", "location", "sensor"],
+  "sensor_ranges": {
+    "temperature_celsius": [-50, 60],
+    "humidity_percent": [0, 100],
+    "pressure_hpa": [900, 1100],
+    "air_quality_aqi": [0, 500]
+  },
+  "feature_engineering": {
+    "temperature_conversions": true,
+    "heat_index": true,
+    "comfort_index": true,
+    "air_quality_categories": true,
+    "time_features": true,
+    "rolling_averages": true
+  },
+  "missing_value_strategy": {
+    "time_series_cols": "interpolation",
+    "categorical_cols": "mode",
+    "numeric_cols": "mean_by_group",
+    "forward_fill_limit": 6
+  },
+  "quality_thresholds": {
+    "completeness_min": 90,
+    "validity_min": 95,
+    "uniqueness_min": 98
+  }
+}

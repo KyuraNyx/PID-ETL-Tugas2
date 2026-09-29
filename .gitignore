@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+env/
+
+# Data files (large)
+data/raw/*.csv
+data/raw/*.xlsx
+data/processed/
+data/output/
+
+# DS Store
+.DS_Store
+
+# Large PDFs from other students
+245150300111042_*.pdf
+laporan salah/
+.DS_Store
